@@ -1,0 +1,199 @@
+body, html {
+    margin: 0;
+    background-color: #18122B;
+}
+
+div {
+    font-family: Helvetica;
+    background-color: #393053;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+ }
+ 
+ nav {
+    border: 1px solid #393053;
+    border-radius: 10px;
+    background-color: #393053;
+    padding:5px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .item:hover {
+    border: 5px solid #9b8be4;
+    border-radius: 10px;
+    opacity: 0.9;
+ }
+
+ a {
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+ }
+
+ 
+
+ #image {
+    position: absolute;
+    width: 1250px;
+    height: 360px;
+    background-image: url('demonslayer.png');
+    border-right: 310px solid #2e2744;
+    border-left: 350px solid #2e2744;
+    border-radius: 30px;
+    overflow: hidden;
+ }
+
+ #image .blur {
+    position: absolute;
+    background-image: url('demonslayer.png');
+    background-position: center left;
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+    filter: blur(3px);
+    float: bottom, left;
+    height: 400px;
+    width: 450px;
+    margin-right: -10px;
+    left: -10px;
+}
+
+#image2 {
+    position: absolute;
+    bottom: 315px;
+    left: 150px;
+    width: 419px;
+    height: 189px;
+    border: 10px solid #635985;
+    border-radius: 15px;
+    background-image: url('resume.png');
+}
+
+#image3 {
+    position: absolute;
+    bottom: 315px;
+    left: 750px;
+    width: 418px;
+    height: 189px;
+    border: 10px solid #635985;
+    border-radius: 15px;
+    background-image: url('codelogo.png');
+}
+
+#image4 {
+    position: absolute;
+    bottom: 315px;
+    right: 150px;
+    width: 418px;
+    height: 189px;
+    border: 10px solid #635985;
+    border-radius: 15px;
+    background-image: url('awardlogo.png');
+}
+
+#image5 {
+   position: absolute;
+   bottom: 40px;
+   right: 150px;
+   width: 418px;
+   height: 189px;
+   border: 10px solid #635985;
+   border-radius: 15px;
+   background-image: url('awardlogo.png');
+}
+
+#image6 {
+   position: absolute;
+   bottom: 40px;
+   left: 150px;
+   width: 418px;
+   height: 189px;
+   border: 10px solid #635985;
+   border-radius: 15px;
+   background-image: url('awardlogo.png');
+}
+
+#image7 {
+   position: absolute;
+   bottom: 40px;
+   right: 720px;
+   width: 418px;
+   height: 189px;
+   border: 10px solid #635985;
+   border-radius: 15px;
+   background-image: url('awardlogo.png');
+}
+
+#image2:hover {
+    opacity: 0.8;
+    border: 10px solid #b29ff0;
+ }
+
+ #image3:hover {
+    opacity: 0.8;
+    border: 10px solid #b29ff0;
+ }
+
+ #image4:hover {
+    opacity: 0.8;
+    border: 10px solid #b29ff0;
+ }
+
+ #image5:hover {
+   opacity: 0.8;
+   border: 10px solid #b29ff0;
+}
+
+#image6:hover {
+   opacity: 0.8;
+   border: 10px solid #b29ff0;
+}
+
+#image7:hover {
+   opacity: 0.8;
+   border: 10px solid #b29ff0;
+}
+
+ .basicinfo {
+    color: #ffffff;
+    text-align: center;
+    background-color: #0000004d;
+    position: absolute;
+    top: 65px;
+    left: 390px;
+    font-size: 23px;
+ }
+
+ .myresume {
+   color: #ffffff;
+   text-align: center;
+   background: none;
+   position: absolute;
+   top: 515px;
+   left: 180px;
+   font-size: 25px;
+ }
+
+ .experance {
+   color: #ffffff;
+   text-align: center;
+   background: none;
+   position: absolute;
+   top: 485px;
+   left: 780px;
+   font-size: 25px;
+ }
+
+ .awards {
+   color: #ffffff;
+   text-align: center;
+   background: none;
+   position: absolute;
+   top: 495px;
+   right: 350px;
+   font-size: 22px;
+ }
